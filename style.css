@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.878);
+}
+
+header, footer{
+    font-weight: 600;
+    font-size: medium;
+    background-color: rgb(123, 11, 228) ;
+    border-radius: 0px;
+    padding: 5pt 10pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.link_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.link_list li {
+    padding: 0pt 10pt;
+    display: inline-block;
+}
+
+header button, footer button{
+    color: blue;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5pt;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.categorys {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 10pt;
+}
+
+.dounuts {
+    background: url(dounts.jfif);
+    
+}
+.coffee {
+    background: url(coffee.jfif);
+}
+.ice_cream {
+    background: url(ice_cream.jfif);
+}
+.bakery{
+    background: url(bakery.jfif);
+    
+}
+.categorys section {
+    
+    display: flex;
+    position: relative;
+    background-size: cover;
+    background-color: white;
+    opacity: 0.8;
+    
+    font-size: x-large;
+    text-shadow: 0 0 5px black;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 20pt 0pt;
+    background-color: antiquewhite;
+    height: 150px;
+    width: 80%;
+    max-width: 500px;
+    
+}
+.categorys section .buttons {
+    
+    position: absolute;
+    font-size: small;
+    bottom: 0;
+    right: 0;
+}
+
+.categorys section .buttons button{
+    width: 30px;
+    height: 30px;
+    margin: 7pt;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 4pt black;
+    color: white;
+    bottom: 0;
+    right: 0;
+}
+
+.categorys section .number{
+    text-shadow: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: small;
+    width: 30px;
+    height: 30px;
+    margin: 7pt;
+    background-color: white;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 4pt black;
+    color: grey;
+    bottom: 0;
+    left: 0;
+}
+
+.order_button {
+    width: 100px;
+    padding: 5pt;
+    
+    margin: 7pt;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 4pt black;
+    color: white;
+    bottom: 0;
+    right: 0;
+}

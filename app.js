@@ -23,3 +23,4 @@ switch(gender){
 }
 statement=statement + userName + " orderd " + (dount? "dount " : "") + (coffee? "coffee " : "") + (iceCream? "iceCream " : "") + (bakery? "bakery" : "");
 console.log(statement);
+
